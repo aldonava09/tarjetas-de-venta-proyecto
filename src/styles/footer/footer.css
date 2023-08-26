@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer__paragraph{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.2;
+    color: #6E728E;
+    margin: 0;
+    margin-top: 7%;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        min-height: 0;
+    }
+}

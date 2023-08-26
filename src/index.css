@@ -1,0 +1,14 @@
+/* import vendor at-rules*/
+@import '~normalize.css';
+
+/* import fonts at-rules*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+/* body styles*/
+body {
+  background-color: #f2f2f2;
+  position: relative;
+}

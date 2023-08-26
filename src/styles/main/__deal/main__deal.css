@@ -1,0 +1,21 @@
+.deal__container{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.deal__title{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 1.2;
+    color: #6E728E;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .deal__container{
+        display: none;
+    }
+}

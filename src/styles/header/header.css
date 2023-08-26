@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.header_title{
+    font-family: 'Montserrat';
+    color: #6E728E;
+    margin: auto;
+    padding-top: 5%;
+}

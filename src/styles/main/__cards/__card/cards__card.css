@@ -1,0 +1,75 @@
+.cards__card{
+    width: 330px;
+    height: 453px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__card-title{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 1.2;
+    color: #6E728E;
+    margin: 0;
+    margin-top: 7%;
+}
+
+.cards__card-price{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 1.2;
+    color: #4A4D60;
+    margin: 0;
+    margin-top: 7%;
+}
+
+.cards__card-feuture{
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #6E728E;
+    margin: 0;
+    margin-top: 7%;
+    border-top: 1px solid #4A4D60;
+    padding: 7% 0 0 0;
+}
+
+.cards__card-feuture_last{
+    border-bottom: 1px solid #4A4D60;
+    padding: 7% 0;
+}
+
+.cards__card-link{
+    width: 80%;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #fff;
+    background: linear-gradient(to right, #A2A7F0, #696EDD);
+    margin: 0;
+    margin-top: 7%;
+    padding: 5% 0 0 0;
+    border-radius: 10px;
+}
+
+.cards__card-link:hover{
+    color: #696EDD;
+    background: #fff;
+    border: 1px solid #696EDD;
+}
+
+@media (max-width: 500px) {
+    .cards__card{
+        margin-top: 7%;
+    }
+}

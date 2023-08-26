@@ -1,0 +1,25 @@
+.App{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.App_up-decoration{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    z-index: -1;
+}
+
+.App_down-decoration{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    z-index: -1;
+}

@@ -1,0 +1,64 @@
+.payment-type__button-container{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin: 0;
+}
+
+.payment-type__button-title{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color:#A2A7F0;
+}
+
+.payment-type__button-switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    margin: 0 1.5%;
+    align-self: center;
+}
+
+.payment-type__button-switch:hover{
+    opacity: .7;
+}
+
+.payment-type__button-switch .payment-type__button-input {
+    display: none;
+}
+
+.payment-type__button-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #A2A7F0, #696EDD);
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.payment-type__button-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.payment-type__button-input:checked + .payment-type__button-slider:before {
+    transform: translateX(35px);
+}
+
+@media (max-width: 500px) {
+    .payment-type__button-container{
+        margin-top: 3%;
+    }
+}
